@@ -15,10 +15,10 @@ main{
 
 .container{
     background-color: #ffffff;
-    width: 870px;
+    max-width: 870px;
     padding: 30px;
     border-radius: 5px;
-    margin-top: 21px;
+    margin: 21px auto 0 auto;
 }
 .section-title{
     color: #562EFF;
@@ -146,6 +146,9 @@ hr{
     }
     .player, .blog{
         flex-direction: column;
+    }
+    .courses{
+        grid-row-gap: 30px;
     }
 
 }
